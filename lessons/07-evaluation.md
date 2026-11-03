@@ -27,3 +27,9 @@ Do not invent a success percentage or optimize against the same few examples for
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Scoring a real workflow
+
+For classification, track per-label errors and inspect a confusion matrix; raw accuracy can hide a rare but important failure. For extraction, check each field against a reference and distinguish missing values from invented ones. For grounded answers, check claim support and citation relevance separately. For agents, check action correctness, permission boundaries, completion, latency, and cost.
+
+Use development cases for iteration and held-out cases for comparison. Repeat selected inputs to estimate variability. A model judge may prefer verbose or familiar-looking answers; calibrate it against human ratings and preserve disagreements.

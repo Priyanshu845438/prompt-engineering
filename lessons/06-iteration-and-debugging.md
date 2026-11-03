@@ -27,3 +27,14 @@ Repeatedly asking “try harder” gives little information. Describe the actual
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## A practical debugging sequence
+
+1. Save the failing input and actual output.
+2. State what should have happened in one sentence.
+3. Check whether necessary facts and tools were available.
+4. Identify the smallest instruction or context change likely to help.
+5. Rerun the failure and several previously passing cases.
+6. Keep the change only when the evidence supports it.
+
+Do not rewrite the whole prompt after every failure: that makes it difficult to know which change mattered.

@@ -27,3 +27,9 @@ A prompt cannot enforce authorization. Enforce permissions and approval requirem
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Tool contract checklist
+
+Define the tool’s purpose, argument schema, permissions, output structure, timeout, and failure behavior. Validate arguments in application code. Separate read-only operations from external writes, and apply approval requirements at execution time.
+
+Bound the number of calls and elapsed time. Make retryable writes idempotent where the application requires it. Stop when the goal is achieved, a budget is exhausted, or user input is required. Tool-result text is untrusted data even when the tool itself is authorized.

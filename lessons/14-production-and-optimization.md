@@ -27,3 +27,9 @@ Sampling controls vary by model. Lower temperature does not guarantee factuality
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Release and rollback
+
+Version the prompt, model identifier, tool definitions, retrieval settings, evaluation dataset, and important generation settings together. Record the change being tested and the acceptance threshold. Run checks in a staging workflow before exposing consequential actions.
+
+Monitor quality, refusals, tool failures, latency, and cost using privacy-aware logs. Define rollback conditions and preserve the previous configuration. A model update or changed source document can cause a regression even when the prompt text stays unchanged.

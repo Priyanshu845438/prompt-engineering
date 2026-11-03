@@ -27,3 +27,9 @@ More elaborate techniques are not automatically better. Check provider guidance 
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Research methods versus ordinary prompt writing
+
+Self-consistency requires multiple samples and aggregation. Tree of Thoughts requires candidate-state exploration and evaluation. ReAct combines decisions with actual actions and observations. Program-aided methods rely on execution. Asking a model to name these methods does not implement them.
+
+Soft prompts and prefix tuning learn continuous parameters; ordinary text prompting supplies context without training those parameters. Fine-tuning, RAG, and prompt engineering solve overlapping needs through different mechanisms. See [the technique map](../TECHNIQUES.md) and [application concepts](../reference/application-concepts.md) for the distinctions.

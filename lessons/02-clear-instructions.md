@@ -27,3 +27,9 @@ Too many overlapping rules make a prompt harder to follow. Resolve contradictory
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## From vague request to testable brief
+
+“Write a good email” leaves the purpose, reader, facts, and next action unclear. A better brief is: “Write to a customer whose shipment is delayed. Use only these facts: dispatch is pending; the next update is Friday. Ask whether they prefer email or phone updates. Keep it under 100 words.” Check each preserved fact and the requested action. Do not add a new delivery promise.
+
+Put essential requirements ahead of decorative style. If two requirements conflict, resolve them explicitly.

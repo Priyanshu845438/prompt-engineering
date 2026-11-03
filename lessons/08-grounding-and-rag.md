@@ -27,3 +27,9 @@ A citation that exists may still fail to support the claim. Do not treat retriev
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Retrieval and generation fail differently
+
+A retrieval failure means the needed passage was not supplied. A generation failure means the passage was present but the answer misused it. Test these separately by giving the generator a known relevant passage.
+
+Store document IDs, timestamps, and access metadata with retrieved content. Define what happens when sources conflict: use the authoritative effective policy when established, or report the conflict. Never let a more recent-looking date alone override your actual source-authority rules. Enforce document access before retrieval, not merely in the final prompt.

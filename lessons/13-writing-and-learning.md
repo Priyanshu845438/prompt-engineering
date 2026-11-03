@@ -27,3 +27,9 @@ Do not publish invented personal experiences or claim AI-assisted text was entir
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Writing and tutoring workflows
+
+For writing, distinguish editing from inventing: define which facts are fixed and which wording can change. Review dates, names, amounts, and commitments after revision. For tutoring, ask the learner to attempt a problem before receiving the solution. Feedback should identify the specific misunderstanding and offer another question.
+
+A human-sounding style can be requested through concrete preferences: short sentences, familiar words, meaningful examples, and no invented personal anecdotes. Style does not establish human authorship.

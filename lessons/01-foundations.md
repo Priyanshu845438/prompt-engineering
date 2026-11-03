@@ -27,3 +27,9 @@ A confident tone is not evidence. Ask for uncertainty when evidence is missing.
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Mental model
+
+A request is processed using the supplied context and the model’s learned behavior. The model does not automatically see your screen, local files, private account, or the live web. Tool integrations may make some of these available; verify which ones are connected. Distinguish model knowledge from supplied evidence and actual tool observations.
+
+Tokens affect capacity and cost. Long context can contain irrelevant or conflicting material; fitting inside a window does not guarantee that every detail will be used correctly.

@@ -27,3 +27,9 @@ Never put secrets in a system prompt and assume they are protected. Redact sensi
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Threat model
+
+Direct injection appears in a user message; indirect injection can arrive through a retrieved page, document, email, image, or tool result. The attacker may seek data exposure, unauthorized actions, or answer manipulation.
+
+Use least privilege, separate tenants’ data, validate outbound destinations, and prevent retrieved content from choosing arbitrary tools or permissions. Keep a test set of realistic attacks. A successful test on one wording is evidence for that case, not proof that injection has been solved.

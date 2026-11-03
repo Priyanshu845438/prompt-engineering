@@ -27,3 +27,9 @@ Never run model-generated SQL or commands just because the output has a valid sc
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Separate three checks
+
+First check syntax: does the output parse? Next check structure: do required keys, types, enums, and null rules match the schema? Finally check meaning: are the values supported by the source? A response can pass the first two and fail the third.
+
+Handle provider refusals, truncated outputs, network failures, and validation failures explicitly. A bounded retry can help with a transient formatting problem; repeatedly retrying a missing fact does not create evidence.

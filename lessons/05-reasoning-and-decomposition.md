@@ -27,3 +27,9 @@ A long explanation can hide an incorrect answer. Use a calculator or executable 
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Planning without unnecessary narration
+
+Ask for artifacts you can inspect: assumptions, equations, requirements, candidate designs, or tests. A short explanation is often more useful than pages of intermediate discussion. For a multi-step workflow, validate early results before passing them onward.
+
+Use least-to-most when later subproblems depend on earlier answers. Use branching search only when exploring alternatives is necessary and you have an evaluator that can reject bad states. These are different approaches, not interchangeable phrases.

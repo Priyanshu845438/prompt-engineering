@@ -27,3 +27,9 @@ Do not infer a person’s identity or sensitive traits from appearance. Verify c
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Ask questions the media can answer
+
+For images, specify the region and whether you want transcription, counting, comparison, or interpretation. For audio, specify transcription language, speaker labeling needs, and treatment of uncertain words. For video, request timestamps and distinguish observed events from inferred intent. For PDFs, check page order, tables, scanned text, and missing pages.
+
+Use original-resolution material when small details matter. Preserve uncertainty in extracted fields and review consequential readings manually.

@@ -13,6 +13,12 @@ This guide uses plain language and practical exercises. It was created with AI a
 
 No programming is needed for the first lessons. API, tool, and production sections assume basic application knowledge. You can practice in a chat interface without an API key; API use may incur provider charges.
 
+## Detailed reference
+
+- [34 prompt types, techniques, and related methods](TECHNIQUES.md), each with a worked example, use cases, limitations, and practice checks
+- [Application concepts: roles, memory, settings, long context, RAG, and fine-tuning](reference/application-concepts.md)
+- [Hands-on shot-count comparison lab](projects/shot-count-lab.md)
+
 ## Lessons
 
 1. [What a prompt can and cannot do](lessons/01-foundations.md)

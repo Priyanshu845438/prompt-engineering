@@ -27,3 +27,9 @@ Do not let every example belong to the same class. Keep evaluation cases separat
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Shot counts explained
+
+A demonstration pairs an input with a desired output. Zero-shot has none, one-shot has exactly one, and few-shot supplies a small collection. Many-shot uses a larger collection without a standard numerical boundary. A conversation can contain many turns and still provide no demonstrations.
+
+Choose examples that cover normal cases, label boundaries, and missing information. Keep unseen evaluation cases out of the prompt. Example order and class balance can change behavior, so record and test them. See the first four guides in the [technique map](../TECHNIQUES.md) for separate worked examples.

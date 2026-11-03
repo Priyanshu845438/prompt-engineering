@@ -27,3 +27,9 @@ Generated tests may repeat the same mistaken assumption as generated code. Inclu
 ## Before moving on
 
 Can you explain when this technique helps, show one case where it fails, and describe how you checked the result? Use the [evaluation worksheet](../templates/evaluation.md) to record evidence.
+
+## Coding and data-analysis boundaries
+
+Provide the smallest relevant code plus the runtime, expected result, and actual error. Require tests with independent expected values. Review commands before running them and use a disposable environment for destructive operations.
+
+For analysis, describe units, date ranges, row meaning, duplicates, missing values, and aggregation rules. Ask for calculations in executable code when appropriate. A chart or narrative is not proof that the underlying join and denominator were correct.
